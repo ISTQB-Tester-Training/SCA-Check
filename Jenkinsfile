@@ -5,10 +5,10 @@ pipeline {
         stage('SCM') {
             steps {
 
-                git 'https://github.com/ISTQB-Tester-Training/StaticCodeanalysis-Showcase-Template.git'
+                git 'https://github.com/ISTQB-Tester-Training/SCA-Check.git'
             }
         }
-        
+
         stage('Code Analysis') {
             steps {
 
