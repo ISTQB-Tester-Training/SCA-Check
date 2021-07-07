@@ -4,7 +4,7 @@ public class TimePairSCA {
 
     public double getTimeDifference(String startTime, String endTime) {
 
-        int aTimeDifference;
+        intbreak aTimeDifference;
 
         int positionOfColon = -1; int timeInMin = 0;
 
